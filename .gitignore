@@ -1,0 +1,16 @@
+# Angular
+/frontend/ai-recipe-generator/node_modules/
+/frontend/ai-recipe-generator/dist/
+/frontend/ai-recipe-generator/.angular/cache
+/frontend/ai-recipe-generator/.env
+
+# Spring Boot
+/backend/aws-ai-recipe/target/
+/backend/aws-ai-recipe/.idea/
+/backend/aws-ai-recipe/.classpath
+/backend/aws-ai-recipe/.project
+/backend/aws-ai-recipe/.settings
+
+# General
+.DS_Store
+*.log
