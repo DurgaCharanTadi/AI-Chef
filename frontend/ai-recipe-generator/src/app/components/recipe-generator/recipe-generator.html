@@ -1,0 +1,20 @@
+<app-navbar></app-navbar>
+<div class="main-container">
+  <div class="center-content">
+    <p>Not sure what to cook tonight? Just tell our AI what's in your fridge! </p>
+    <p>Enter a few ingredients (like eggs, spinach, and cheese), and this app will whip up a tasty recipe in seconds. It's fast, fun, and helps reduce food waste — give it a try!</p>
+    <input [(ngModel)]="ingredients" placeholder="Hungry? Tell me what you've got — like beef, potatoes, pepper" class="input" />
+    <!-- <button (click)="generate()" [disabled]="loading">Generate</button> -->
+    <button (click)="generate()" [disabled]="loading" matButton="tonal">Generate</button>
+    <div *ngIf="loading" class="loading"><mat-spinner></mat-spinner></div>
+  </div>
+
+  <div class="output-container" *ngIf="recipe && imageBase64">
+    <div class="recipe" *ngIf="recipe">
+      <pre>{{ recipe }}</pre>
+    </div>
+    <div class="image" *ngIf="imageBase64">
+      <img [src]="'data:image/png;base64,' + imageBase64" alt="Generated Dish" />
+    </div>
+  </div>
+</div>
