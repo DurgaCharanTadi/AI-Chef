@@ -6,7 +6,7 @@
 
 ## 🔗 Live Demo
 
-🌐 [https://dct-recipegenerator.com/](https://dct-recipegenerator.com/)
+🌐 [https://www.durgacharantadi.com/ai-recipegenerator/](https://www.durgacharantadi.com/ai-recipegenerator/)
 
 ---
 
@@ -77,4 +77,5 @@ This repository contains both the frontend and backend code:
 This project uses AWS AI services and is intended for educational and portfolio purposes only.
 
 ---
+
 
